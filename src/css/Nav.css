@@ -1,0 +1,21 @@
+.nav {
+  position: fixed;
+  bottom: 5rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.nav a {
+  text-decoration: none;
+}
+
+.nav p {
+  color: antiquewhite;
+  font-size: 3rem;
+  font-weight: 200;
+}
+.nav p:hover {
+  cursor: pointer;
+  font-weight: 300;
+}
