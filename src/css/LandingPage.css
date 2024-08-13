@@ -1,0 +1,59 @@
+.landing-page {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card {
+  position: relative;
+  bottom: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 0rem 0rem 2rem 2rem;
+  border: 3px solid antiquewhite;
+  overflow: hidden;
+}
+
+.card .title {
+  color: antiquewhite;
+  font-size: 2rem;
+  text-align: center;
+  font-weight: 400;
+  max-width: 400px;
+  padding: 1rem;
+}
+
+.img {
+  width: 100%;
+  aspect-ratio: 0.8;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.btn {
+  color: antiquewhite;
+  cursor: pointer;
+}
+
+.btn-new {
+  background-image: linear-gradient(to left, rgb(69, 69, 69), black);
+  padding: 2rem;
+  font-size: 2rem;
+}
+
+.btn-more {
+  padding: 0.5rem;
+  font-size: 1.4rem;
+  width: 100%;
+  background-color: black;
+  border: none;
+}
+
+.btn:hover {
+  text-decoration: underline;
+}

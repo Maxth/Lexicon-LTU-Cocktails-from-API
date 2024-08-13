@@ -1,4 +1,3 @@
-import React from 'react';
 import '../css/Nav.css';
 import {Link, useLocation, useNavigate} from 'react-router-dom';
 

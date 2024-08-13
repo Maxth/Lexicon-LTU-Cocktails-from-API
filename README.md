@@ -1,5 +1,3 @@
-![poster](./src/assets/poster.png)
-
 # The Cocktail DB
 
 <details>
@@ -68,10 +66,10 @@ The web application will have atleast three different pages.
   - Tags
   - Ingredients and Measurements
   - The proper glass to serve it in
- 
+
 On this page it could be a good opportunity to learn about dynamic segments in React Router: [Dynamic segments](https://reactrouter.com/en/main/route/route#dynamic-segments) **Observe**: this is not required in order to solve the exercise.
 
-  [Back to top](#the-cocktail-db)
+[Back to top](#the-cocktail-db)
 
 ## Bonus features - choose your challenges..
 
