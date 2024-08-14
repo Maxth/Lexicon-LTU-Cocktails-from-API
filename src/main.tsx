@@ -2,7 +2,7 @@ import {StrictMode} from 'react';
 import {createRoot} from 'react-dom/client';
 import {createBrowserRouter, RouterProvider} from 'react-router-dom';
 import './index.css';
-import {LandingPage, Root, SearchPage} from './routes';
+import {InfoPage, LandingPage, Root, SearchPage} from './routes';
 
 const router = createBrowserRouter([
   {
@@ -16,6 +16,10 @@ const router = createBrowserRouter([
       {
         path: '/search',
         element: <SearchPage />,
+      },
+      {
+        path: '/info/:cocktailId',
+        element: <InfoPage />,
       },
     ],
   },
