@@ -1,0 +1,26 @@
+.list-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  min-height: 430px;
+  width: 300px;
+  padding: 1.5rem 3rem 5rem 3rem;
+  border: 1px solid antiquewhite;
+  position: relative;
+}
+
+.loading {
+  justify-content: center;
+  align-items: center;
+}
+
+.drink-title {
+  color: antiquewhite;
+  font-size: 1.2rem;
+  cursor: pointer;
+  text-align: center;
+}
+
+.drink-title:hover {
+  color: white;
+}

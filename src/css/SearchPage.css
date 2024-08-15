@@ -1,0 +1,30 @@
+.search-page {
+  height: 100%;
+  display: flex;
+  padding-top: 10rem;
+  align-items: center;
+  flex-direction: column;
+  gap: 5rem;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.input-container label {
+  color: antiquewhite;
+}
+
+.input {
+  padding: 0.5rem;
+  background-image: linear-gradient(to left, rgb(69, 69, 69), black);
+  color: antiquewhite;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.input:focus {
+  outline: none;
+}

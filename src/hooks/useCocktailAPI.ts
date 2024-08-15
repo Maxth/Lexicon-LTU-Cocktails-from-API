@@ -34,5 +34,20 @@ export const useCocktailAPi = () => {
     };
   };
 
-  return {getRandomCocktail, getCocktailDetails};
+  const searchCocktail = async (
+    searchStr: string
+  ): Promise<{name: string; id: string}[] | undefined> => {
+    const res = await fetch(
+      `https://thecocktaildb.com/api/json/v1/1/search.php?s=${searchStr}`
+    );
+    const data = await res.json();
+
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    return data?.drinks?.map((obj: any) => ({
+      name: obj?.strDrink,
+      id: obj?.idDrink,
+    }));
+  };
+
+  return {getRandomCocktail, getCocktailDetails, searchCocktail};
 };

@@ -1,0 +1,28 @@
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  align-items: center;
+}
+
+.pagination .arrow {
+  cursor: pointer;
+  font-size: 3rem;
+  color: antiquewhite;
+}
+
+.pagination .arrow:hover {
+  color: white;
+}
+
+.pagination .current-page {
+  font-size: 1.3rem;
+  color: antiquewhite;
+}
+
+.pagination .placeholder {
+  width: 48px;
+}
